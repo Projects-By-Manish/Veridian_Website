@@ -418,6 +418,7 @@ body {
 /* Footer */
 .footer {
   padding: 6rem 0;
+  border-top: 1px solid var(--border);
 }
 .footer-grid {
   display: grid;
