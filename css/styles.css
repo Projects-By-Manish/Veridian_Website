@@ -297,7 +297,16 @@ body {
   flex-direction: column;
   justify-content: center;
   padding-top: 5rem;
+  background-image:
+    linear-gradient(to bottom, var(--background), 60%, transparent 100%),
+    linear-gradient(to right, var(--background) 50%, transparent 100%),
+    linear-gradient(to top, var(--background), 25%, transparent 100%),
+    url("../images/light_flow.jpg");
+  background-size: cover;
+  background-position: right center;
+  background-repeat: no-repeat;
 }
+
 .hero-content {
   max-width: 64rem;
 }
@@ -450,6 +459,18 @@ body {
   flex-direction: column;
   justify-content: center;
   padding-top: 5rem;
+  background-image:
+    linear-gradient(to bottom, var(--background), 75%, transparent 100%),
+    linear-gradient(to right, var(--background) 30%, transparent 60%),
+    linear-gradient(to top, var(--background), 25%, transparent 100%),
+    url("../images/dark_flow_2.png");
+  background-size: cover;
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+.page-header + section {
+  margin-top: -1px; /* Pulls the next section up by 1 pixel to cover the gap */
+  background-color: var(--background);
 }
 .page-header-content {
   max-width: 64rem;
@@ -591,6 +612,11 @@ body {
   }
   .hero {
     min-height: 60vh; /* Reduces the hero section height on mobile for quicker access to content */
+    background-image:
+      linear-gradient(to bottom, var(--background), 60%, transparent 100%),
+      linear-gradient(to right, var(--background) 50%, transparent 100%),
+      linear-gradient(to top, var(--background), 25%, transparent 100%),
+      url("../images/light_flow.jpg");
   }
   .page-header {
     min-height: 60vh; /* Reduces top padding for quicker access to content */
