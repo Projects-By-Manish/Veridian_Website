@@ -596,3 +596,6 @@ body {
     min-height: 60vh; /* Reduces top padding for quicker access to content */
   }
 }
+.description {
+  max-width: 28rem;
+}
