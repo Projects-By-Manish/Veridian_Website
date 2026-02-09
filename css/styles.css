@@ -613,13 +613,18 @@ body {
   .hero {
     min-height: 60vh; /* Reduces the hero section height on mobile for quicker access to content */
     background-image:
-      linear-gradient(to bottom, var(--background), 60%, transparent 100%),
+      linear-gradient(to bottom, var(--background), 75%, transparent 100%),
       linear-gradient(to right, var(--background) 50%, transparent 100%),
       linear-gradient(to top, var(--background), 25%, transparent 100%),
       url("../images/light_flow.jpg");
   }
   .page-header {
     min-height: 60vh; /* Reduces top padding for quicker access to content */
+    background-image:
+      linear-gradient(to bottom, var(--background), 75%, transparent 100%),
+      linear-gradient(to right, var(--background) 50%, transparent 100%),
+      linear-gradient(to top, var(--background), 35%, transparent 100%),
+      url("../images/dark_flow_2.png");
   }
 }
 .description {
