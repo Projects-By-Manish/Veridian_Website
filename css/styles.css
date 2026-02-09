@@ -443,61 +443,6 @@ body {
 .footer-copyright {
   margin-top: 5rem;
 }
-
-/* Case Studies Page */
-.case-studies-list {
-  display: flex;
-  flex-direction: column;
-  gap: 5rem;
-}
-
-.case-study-item {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-.case-study-header {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1rem;
-}
-
-@media (min-width: 1024px) {
-  .case-study-header {
-    grid-template-columns: 7fr 5fr;
-    align-items: center;
-  }
-}
-
-.case-study-title {
-  font-size: 1.5rem;
-  font-weight: 400;
-}
-
-.case-study-scope {
-  text-align: left;
-}
-
-@media (min-width: 1024px) {
-  .case-study-scope {
-    text-align: right;
-  }
-}
-
-.case-study-details {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 2rem;
-}
-
-@media (min-width: 1024px) {
-  .case-study-details {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 3rem;
-  }
-}
-
 /* Page Header */
 .page-header {
   min-height: 80vh;
