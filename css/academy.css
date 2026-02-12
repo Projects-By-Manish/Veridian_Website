@@ -8,7 +8,7 @@
   --card: hsl(0, 0%, 0%); /* White cards */
   --card-foreground: hsl(248, 30%, 12%); /* Dark violet text */
   --primary: hsl(268, 88%, 64%); /* Magenta accent (buttons/links) */
-  --primary-dark: hsl(268, 52%, 46%); /* Magenta accent (buttons/links) */
+  --primary-dark: hsl(268, 56%, 48%); /* Magenta accent (buttons/links) */
   --primary-foreground: hsl(0, 0%, 100%); /* White on primary */
   --secondary: hsl(248, 40%, 18%); /* Softer dark violet panels */
   --secondary-foreground: hsl(0, 0%, 100%); /* Text on secondary */
@@ -456,14 +456,6 @@ body {
   .section {
     padding: 3rem 0;
   }
-  .hero {
-    min-height: 60vh;
-    background-image:
-      linear-gradient(to bottom, var(--background), 80%, transparent 100%),
-      linear-gradient(to right, var(--background) 50%, transparent 100%),
-      linear-gradient(to top, var(--background), 25%, transparent 100%),
-      url("../images/light_flow.jpg");
-  }
 }
 .description {
   max-width: 28rem;
@@ -471,10 +463,10 @@ body {
 
 :root {
   --academy-bg: #0d0b33;
-  --academy-medium: #320e6b;
-  --academy-medium-2: #220b4e;
-  --academy-light: #4a128a;
-  --academy-dark: #18093b;
+  --academy-medium: #2c0c5f;
+  --academy-medium-2: #200a47;
+  --academy-light: #440f80;
+  --academy-dark: #0f0c2b;
   --academy-bg-soft: #2a1355;
   --academy-card: #9e52f4;
   --academy-card-muted: #f4f1ff;
@@ -652,7 +644,6 @@ body {
   font-weight: 500;
   margin-bottom: 0.5rem;
 }
-.academy
 /* Apply section */
 .academy-apply {
   background:
@@ -661,7 +652,7 @@ body {
       rgba(244, 91, 255, 0.26),
       transparent 50%
     ),
-    linear-gradient(135deg, #0d0b33, #161040);
+    linear-gradient(135deg, #601fac, #471086);
   color: #ffffff;
 }
 .academy-apply .text-subtle {
